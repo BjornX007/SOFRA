@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Calendly CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="top">
+        <div class="bar">
+            <div class="logo">
+                <a href="#home">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#menu" data-lang-key="menu">Menu</a></li>
+                    <li><a href="#booking" data-lang-key="booking">Reservierung</a></li>
+                    <li><a href="#location" data-lang-key="location">Standort</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="home" class="header">
+        <div class="header-content">
+            <h1 data-lang-key="welcome">Ein Stück Heimat</h1>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content">
+        <h1>.</h1>
+        <p data-lang-key="about-content">
+            SOFRA ist das erste albanische Restaurant seiner Art in Deutschland! Der Name des Restaurants ist vom traditionellen albanischen Tisch namens „Sofra“ inspiriert – einem runden, niedrigen Tisch, typisch für die albanische Gastfreundschaft gemeint ist, der sich in der gemeinsamen Sitzgelegenheit im Kreis widerspiegelt.Dieses Restaurant wurde konzipiert, um authentische und traditionelle albanische Küche zu präsentieren und vermittelt ein Gefühl der Einheit und Zusammengehörigkeit, wie der Name symbolisiert. Da fast alle Hauptzutaten direkt aus Albanien stammen, wird jedes Gericht mit Liebe zubereitet und serviert und spiegelt die Authentizität der albanischen Kultur wider.
+            Der Slogan „ein Stück Heimat“ stärkt die Verbundenheit zur Heimat und spiegelt unsere Mission wider: ein Stück unserer geliebten Heimat an unseren neuen Wohnort zu bringen.
+        </p>
+        <img src="img/two men top about.png" alt="Second Image" class="second-image">
+   
+     </section><div id="menu">
+            <!-- Existing content of the #menu section -->
+            <img src="img/sofra no background black white.png" alt="First Image" class="menu-image first-image">
+           
+            <!-- Add more images as needed -->
+        </div>
+    <!-- Menu Section -->
+    <section id="menu" class="content">
+        
+        <h1 data-lang-key="menu-title">Speisekarte</h1>
+        <div class="flipbook">
+            <iframe allowfullscreen="" scrolling="no" class="fp-iframe" style="border: 1px solid rgb(209, 209, 209); width: 100%; height: 400px;" src="https://heyzine.com/flip-book/d0d2a51bf4.html"></iframe>
+        </div>
+      
+        
+    </section>
+    
+
+<div id="booking">
+    <!-- Existing content of the #menu section -->
+    <div id="booking">
+        <!-- Example images -->
+        <img src="img/download-removebg-preview.png" alt="Book Image" class="book-image erste-image">
+        <img src="img/old-traditiona-albania-food-table-260nw-2166454763.jpg__371_280__-_Google_Chrome_29.08.2024_14_57_34-removebg-preview.png" alt="Second Image" class="book-image zweite-image">
+       
+        <!-- Add more images as needed -->
+    </div>
+   
+    <!-- Add more images as needed -->
+</div>
+    <!-- Booking Section (Calendly Widget) -->
+    <!-- Booking Section -->
+<section id="booking" class="content">
+    <h1 data-lang-key="booking-title">Tisch reservieren</h1>
+    <div class="booking-container">
+        <form action="/submit-booking" method="post" class="booking-form">
+            <!-- Booking form fields here -->
+        </form>
+    </div>
+    <!-- Calendly Inline Button -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/bjorni-k2005/tischreservierung" style="min-width:100px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</section>
+
+        <!-- Calendly badge widget end -->
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="content">
+        <h1 data-lang-key="location-title">Unser Standort</h1>
+        <p class="address">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Merscheider+Str+49,+42699+Solingen" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                Merscheider Str 49, 42699 Solingen
+            </a>
+        </p>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.1072026403496!2d7.055499415733773!3d51.16408097958312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8dca2b9c9c8c5%3A0x2c9f8c8bb7bf9a0a!2sMerscheider%20Str.%2049%2C%2042699%20Solingen%2C%20Germany!5e0!3m2!1sen!2sus!4v1645710287586!5m2!1sen!2sus" 
+                width="600" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <p><strong>Öffnungszeiten:</strong><br>
+                Montag - Freitag: 16:00 - 22:00<br>
+                Samstag: 16:00 - 23:00
+            </p>
+            <p><strong>Email:</strong> <a href="mailto:info@sofra.de">info@sofra.de</a></p>
+            <p><strong>Telefon:</strong> <a href="tel:+491633335514">+49 163 3335514</a></p>
+        </div>
+        <div class="footer-right">
+            <p>Hinterlassen Sie eine Bewertung</p>
+            <div class="social-media">
+                <a href="https://www.tiktok.com/@sofra.de?is_from_webapp=1&sender_device=pc" target="_blank">Folge uns auf TikTok</a>
+            </div>
+            <p>&copy; 2024 SOFRA. Alle Rechte vorbehalten.</p>
+            <section class="developer-contact">
+                <p><a href="tel:+491633335514">Entwickler kontaktieren</a><i class="fas fa-phone-alt"></i></p>
+            </section>
+        </div>
+    </footer>
+
+    <!-- Ensure the path is correct relative to your HTML file -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>
